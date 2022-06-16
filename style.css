@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+.header{
+     background-color: #3b3970;
+  font-weight: bold;
+  text-align: center;
+    height: 50px;
+    width:100%;
+}
+.footer{
+     background-color: #3b3970;
+  font-weight: bold;
+  text-align: right;
+    height: 50px;
+    width:100%;
+    color:white;
+    
+}
+.imagelogo{
+    
+     width: 60px;
+        float: left;
+    padding-left: 30px
+      
+}
+nav{
+    color:white;
+     padding-top: 10px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+    width:100%;
+    height: 300px;
+    margin-left:15%;
+    margin-right: 15px;
+}
+.left{
+width:20%;
+height: 300px;
+}
+.right{
+  width:20%;
+  height: 300px;
+}
+.middle{
+  width:60%;
+  height: 300px;
+}
+
+.bottom-left {
+   
+  position: absolute;
+    padding-top: 10px;
+  
+  right: 10px;
+    width:100%;
+    height: 200px;
+    top:220px;
+}
+.contentcolor{
+    background-color: aliceblue;
+    position: absolute;
+     opacity: 80%;
+    width: 100%;
+    height: 100px;
+    color:#3b3970;
+  
+    
+}
+a{
+    color:white;
+      text-align: center;
+    
+
+}
+.content{
+         position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+    width:70%;
+    height: 300px;
+    align-content: center;
+    
+}
+.inlinecontent{
+    display:  flex;
+       margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+.contentleft{
+    background-color: #3b3970;
+    width:250px;
+    
+    margin-left: 20%;
+    margin-top:-50px;
+    color:white;
+    font-size:12px;
+        text-align:center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+h1{
+    color:white;
+   
+}
+.contentright{
+    background-color: #3b3970;
+    width:250px;
+    
+    margin-right: 10px;
+    margin-top:-50px;
+      color:white;
+    font-size:12px;
+        text-align:center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.contentcenter{
+    
+     background-color: #3b3970;
+
+    width:1px;
+   border-style: solid;
+    border-color: white;
+    margin-top:-50px;
+}
+.footercontent{
+    
+  margin-right: 10px; 
+    font-size: 12px;
+}
+.videocontent{
+    width:50%;
+    height:220px;
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
